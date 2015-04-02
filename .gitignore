@@ -1,0 +1,10 @@
+/.bundle
+/log/*
+.idea
+.rvmrc
+/nbproject
+/.nbproject
+.DS_Store
+.*~
+.~lock.*#
+.directory
