@@ -1,5 +1,7 @@
-edeskybot
-=========
+Ruby klient pro edesky.cz API
+=============================
 
-Skripty pracující s API pro edesky.cz
+Ve vývoji.
+
+Informace o obecném HTTP API najdete na https://github.com/edesky/edesky_api
 
