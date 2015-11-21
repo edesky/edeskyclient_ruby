@@ -22,3 +22,6 @@ response = client.query_documents(keywords: 'prodej')
 # vypsat prvni nalezeny dokument
 p response['documents']['document'][0]
 ```
+
+Přehled možných parametrů hledání najdete na
+https://github.com/edesky/edesky_api/blob/master/apiary.apib
