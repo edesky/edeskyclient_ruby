@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'edesky-client'
-  s.version     = '0.0.3'
+  s.version     = '0.0.4'
   s.date        = '2015-11-21'
   s.summary     = "Ruby klient pro edesky.cz API"
   s.description = "Ruby klient pro edesky.cz HTTP API, hledání dokumentů a úředních desek."
@@ -13,6 +13,6 @@ Gem::Specification.new do |s|
   s.license     = 'MIT'
   s.required_ruby_version = '>= 1.9.3'
 
-  s.add_runtime_dependency 'simple-xml', '~> 1.1'
+  s.add_runtime_dependency 'xml-simple', '~> 1.1'
   s.add_development_dependency 'minitest', '~> 5.0'
 end
