@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?><edesky_search_api version="0.9">
+<meta>
+<timestamp>2015-08-01 07:31:12 +0200</timestamp>
+<user>marek@aurem.cz</user>
+<requested_params>{"keywords"=>"prodej", "created_from"=>"2015-06-01", "order"=>"date", "search_with"=>"sql", "api_key"=>"cs9r20T5rDr9dEFW1N9IFv8fpH7YN4PF", "page"=>"1", "format"=>"xml"}</requested_params>
+<documents_count total="1622">200</documents_count>
+<page total="9">1</page>
+</meta>
+<documents>
+<document created_at="2015-07-31 17:19:39 +0200" dashboard_id="385" dashboard_name="Město Hluk" edesky_id="191444" edesky_text_url="https://edesky.cz/dokument/191444.txt" edesky_url="https://edesky.cz/dokument/191444" name="Zveřejněno 31.07.2015 - Záměr o prodeji části pozemků v ulici Pod Sádkama a v ulici Mladá.pdf" orig_url="http://www.mestohluk.cz/doc/930/element/67173/download">
+<attachments>
+<attachment contains_text="1" edesky_id="212424" mimetype="application/pdf" name="Zveřejněno 31.07.2015 - Záměr o prodeji části pozemků v ulici Pod Sádkama a v ulici Mladá.pdf" url="https://edesky.cz/attachments/2015_w30/385_212424/open-uri20150731-11087-ffz5q5">
+
+</attachment>
+</attachments>
+</document>
+<document created_at="2015-07-31 17:19:24 +0200" dashboard_id="362" dashboard_name="Město Holýšov" edesky_id="191436" edesky_text_url="https://edesky.cz/dokument/191436.txt" edesky_url="https://edesky.cz/dokument/191436" name="Výběrové řízení-prodej nemovitosti č.p.38 Vránov" orig_url="http://www.mestoholysov.cz/uredni-deska/vyberove-rizeni-prodej-nemovitosti-cp38-vranov-278.html">
+<attachments>
+<attachment contains_text="1" edesky_id="212398" mimetype="application/pdf" name="Výběrové řízení-prodej nemovitosti č.p.38 Vránov" url="https://edesky.cz/attachments/2015_w30/362_212398/open-uri20150731-11087-kmgf98">
+
+</attachment>
+</attachments>
+</document>
+</documents>
+</edesky_search_api>
