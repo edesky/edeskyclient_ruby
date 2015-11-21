@@ -13,6 +13,6 @@ Gem::Specification.new do |s|
   s.license     = 'MIT'
   s.required_ruby_version = '>= 1.9.3'
 
-  s.add_dependency 'simplexml', '~> 1.1.5'
-  s.add_development_dependency 'minitest', '> 5.0.0'
+  s.add_dependency 'simplexml', '~> 1.1'
+  s.add_development_dependency 'minitest', '~> 5.0'
 end
