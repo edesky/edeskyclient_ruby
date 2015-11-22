@@ -52,7 +52,7 @@ class EdeskyClient
   def fetch(type, params)
     uri = URI(URI.join(@endpoint_url, type))
     uri.query = URI.encode_www_form(params)
-    XmlSimple.xml_in(Net::HTTP.get(uri), 'ForceArray': false)
+    XmlSimple.xml_in(Net::HTTP.get(uri), :'ForceArray' => false)
   end
 
 end
