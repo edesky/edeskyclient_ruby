@@ -52,7 +52,12 @@ class EdeskyClient
   def fetch(type, params)
     uri = URI(URI.join(@endpoint_url, type))
     uri.query = URI.encode_www_form(params)
-    XmlSimple.xml_in(Net::HTTP.get(uri), :'ForceArray' => false)
+    http = Net::HTTP.new(uri.host, uri.port)
+    http.use_ssl = true
+    request = Net::HTTP::Get.new(uri.request_uri)
+    response = http.request(request)
+    # TODO(aufi): raise error on non-200 HTTP code
+    XmlSimple.xml_in(response.body, :'ForceArray' => false)
   end
 
 end
