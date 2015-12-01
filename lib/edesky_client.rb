@@ -44,12 +44,13 @@ class EdeskyClient
   end
 
   def query_dashboards(options = {})
-    raise "Not implemented yet!"
+    fetch('dashboards', BOARD_QUERY_DEFAULTS.merge(options))
   end
 
   private
 
   def fetch(type, params)
+    params['api_key'] = @api_key
     uri = URI(URI.join(@endpoint_url, type))
     uri.query = URI.encode_www_form(params)
     http = Net::HTTP.new(uri.host, uri.port)

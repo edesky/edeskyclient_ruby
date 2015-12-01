@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.name        = 'edesky-client'
-  s.version     = '0.0.7'
-  s.date        = '2015-11-29'
+  s.version     = '0.0.8'
+  s.date        = '2015-12-01'
   s.summary     = "Ruby klient pro edesky.cz API"
   s.description = "Ruby klient pro edesky.cz HTTP API, hledání dokumentů a úředních desek."
   s.authors     = ["Marek Aufart"]
