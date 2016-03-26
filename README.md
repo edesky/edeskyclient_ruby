@@ -20,7 +20,7 @@ client = EdeskyClient.new(api_key: '')
 response = client.query_documents(keywords: 'prodej')
 
 # vypsat prvni nalezeny dokument
-p response['documents']['document'][0]
+p response['documents'][0]['document'][0]
 ```
 
 Přehled možných parametrů hledání najdete na

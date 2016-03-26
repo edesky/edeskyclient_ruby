@@ -58,7 +58,7 @@ class EdeskyClient
     request = Net::HTTP::Get.new(uri.request_uri)
     response = http.request(request)
     # TODO(aufi): raise error on non-200 HTTP code
-    XmlSimple.xml_in(response.body, :'ForceArray' => false)
+    XmlSimple.xml_in(response.body, :'ForceArray' => true)
   end
 
 end
@@ -68,5 +68,5 @@ end
 client = EdeskyClient.new(api_key: '')
 response = client.query_documents(keywords: 'prodej')
 # print first found document
-p response['documents']['document'][0]
+p response['documents'][0]['document'][0]
 =end
